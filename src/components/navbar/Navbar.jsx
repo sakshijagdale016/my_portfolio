@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className="navbar">
 <Sidebar/>
         <div className="wrapper">
-        <motion.span initial={{opacity:1,scale:1}} anitmate={{opacity:1,scale:2}} transition={{duration:1}}>Sakshi</motion.span>
+        <motion.span initial={{opacity:1,scale:1}} anitmate={{opacity:1,scale:2}} transition={{duration:1}} style={{ marginLeft: "100px" }}>Sakshi</motion.span>
         <div className="social">
         <a href="#"><img src="/facebook.png" alt=""></img></a>
         <a href="#"><img src="/instagram.png" alt=""></img></a>
