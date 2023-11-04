@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import emailjs from '@emailjs/browser';
 const variants ={
     initial:{
-        y:500,
+        y:0,
         opacity:0,
     },
     animate:{
